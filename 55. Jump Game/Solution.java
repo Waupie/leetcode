@@ -1,5 +1,5 @@
 /**
- * Author:      [Your Name]
+ * Author:      Maximilian Holm
  * Date:        01/04/2025
  * Description: This class determines whether it's possible to reach the last index
  *              of an integer array, where each element represents the maximum number
