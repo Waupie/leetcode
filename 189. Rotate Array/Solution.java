@@ -1,8 +1,10 @@
 /**
  * Author:      Maximilian Holm
- * Date:        01/04/2025
- * Description: This class 'rotates' an array with k-amount of positions, if k is bigger than
- *              the array it jumps to the beginning of the array.
+ * Date:        09/04/2025
+ * Description: This method checks if two strings are isomorphic. Two strings are isomorphic if
+ *              characters in the first string can be replaced to get the second string, with a
+ *              one-to-one and consistent mapping. It uses two hash maps to ensure that each character
+ *              in 's' maps to exactly one character in 't', and vice versa.
  */
 
 
