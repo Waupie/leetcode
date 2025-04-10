@@ -1,10 +1,11 @@
 /**
  * Author:      Maximilian Holm
- * Date:        09/04/2025
- * Description: This method checks if two strings are isomorphic. Two strings are isomorphic if
- *              characters in the first string can be replaced to get the second string, with a
- *              one-to-one and consistent mapping. It uses two hash maps to ensure that each character
- *              in 's' maps to exactly one character in 't', and vice versa.
+ * Date:        01/04/2025
+ * Updated-Date:10/04/2025 - Updated the comment, as it was incorrect.
+ * Description: This method rotates the elements of the input array 'nums' to the right by 'k' steps.
+ *              It uses a temporary array to store the rotated result, calculates each element's new
+ *              position based on the offset 'k', and then copies the result back to the original array.
+ *              Note: The current implementation contains an off-by-one error when computing positions.
  */
 
 
