@@ -1,6 +1,6 @@
 /**
  * Author:      Maximilian Holm
- * Date:        2025-04-15
+ * Date:        2025-04-16
  * Description: This class provides a method to summarize ranges in a sorted integer array.
  *              Consecutive numbers are grouped into a range "start->end", while isolated numbers
  *              are represented as single elements. For example, the input [0,1,2,4,5,7] will produce
