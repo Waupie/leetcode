@@ -14,7 +14,7 @@ class Solution {
         while (i < nums.length) {
             int start = nums[i];
             // Move forward while consecutive numbers follow
-            while (i + 1 < nums.length && nums[i + 1] == nums[i] + 1) { i++ };
+            while (i + 1 < nums.length && nums[i + 1] == nums[i] + 1) { i++; }
 
             if (start != nums[i])
                 numList.add(start + "->" + nums[i]);
